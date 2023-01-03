@@ -1,7 +1,9 @@
 ## Project Outline
 > CanCode Project Description
 
-- Write details here...
+- Helps students learn to code in an interactive manner.
+- Simple easy to learn design.
+- Like Kahoot, and Leet Code.
 
 ## Contributors
 
