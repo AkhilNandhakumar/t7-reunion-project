@@ -1,14 +1,15 @@
 ## Project Outline
 > CanCode Project Description
-- temp
+
+- Write details here...
 
 ## Contributors
 
 | Name | Github Profile | Insights | Role |
 | --- | --- | --- | --- | --- | --- |
-| Tristan Copley | **Link** | **Link** | Scrum Master |
-| Akhil Nandhakumar | **Link** | **Link** | Temp |
-| Armaan Shamsaasef | **Link** | **Link** | Temp |
-| Braeden Copley | **Link** | **Link** | Temp |
-| Tianbin Liu | [Link](https://github.com/TianbinLiu) | [Link](https://github.com/jm1021/leuck_reunion/pulse) | Temp |
-| Tigran Arkelov | **Link** | **Link** | Temp |
+| Tristan Copley | **[Link](https://github.com/TristanCopley)** | Scrum Master |
+| Akhil Nandhakumar | **[Link](https://github.com/AkhilNandhakumar)** | Temp |
+| Armaan Shamsaasef | **[Link](https://github.com/xXAASXx)** | Temp |
+| Braeden Copley | **[Link](https://github.com/boply)** | Temp |
+| Tianbin Liu | **[Link](https://github.com/TianbinLiu)** | **Link** | Temp |
+| Tigran Arkelov | **[Link](https://github.com/Tigran7)** | **Link** | Temp |
