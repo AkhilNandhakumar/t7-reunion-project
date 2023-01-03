@@ -6,7 +6,7 @@
 ## Contributors
 
 | Name | Github Profile | Insights | Role |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- |
 | Tristan Copley | **[Link](https://github.com/TristanCopley)** | Scrum Master |
 | Akhil Nandhakumar | **[Link](https://github.com/AkhilNandhakumar)** | Temp |
 | Armaan Shamsaasef | **[Link](https://github.com/xXAASXx)** | Temp |
