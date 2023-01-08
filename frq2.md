@@ -69,43 +69,49 @@
 
 function getInputId(){
     let input = document.getElementById("inputId").value;
+    console.log(input);
     return input;
 }
 
 function getInputEmail(){
     let input = document.getElementById("inputEmail").value;
+    console.log(input);
     return input;
 }
 
 function getInputPassword(){
     let input = document.getElementById("inputPassword").value;
+    console.log(input);
     return input;
 }
 
 function getInputName(){
     let input = document.getElementById("inputName").value;
+    console.log(input);
     return input;
 }
 
 function getInputDob(){
     let input = document.getElementById("inputDob").value;
+    console.log(input);
     return input;
 }
 
 function getInputHeight(){
     let input = document.getElementById("inputHeight").value;
+    console.log(input);
     return input;
 }
 
 function getInputWeight(){
     let input = document.getElementById("inputWeight").value;
+    console.log(input);
     return input;
 }
 
 
 function addPeople(){
     
-
     const params = {
         email: getInputEmail(),
         password: getInputPassword(), 
@@ -113,6 +119,7 @@ function addPeople(){
         dob: getInputDob(),
         height: getInputHeight(),
         weight: getInputWeight(),
+
     };
 
     const options = {
@@ -120,11 +127,11 @@ function addPeople(){
         body: JSON.stringify( params )  
     };
 
-    fetch( 'https://akhilcodingsociety.tk/api/person/post', options )
+    fetch( 'https://akhilcodingsociety.tk/api/person/post/', options )
         .then(response => response.json())
         .then(data => {console.log(data);});
 
-    }
+}
 
 function getId(id) {
     idResult = document.getElementById("idResult");
@@ -159,22 +166,22 @@ function getId(id) {
 ### Create New Person
 
 <input id="inputEmail" placeholder="Input Email">
-    <button onclick="getInputEmail()">Submit</button>
+
 
 <input id="inputPassword" placeholder="Input Password">
-    <button onclick="getInputPassword()">Submit</button>
+
 
 <input id="inputName" placeholder="Input Name">
-    <button onclick="getInputName()">Submit</button>
+
 
 <input id="inputDob" placeholder="MM-dd-yyyy">
-    <button onclick="getInputDob()">Submit</button>
+
 
 <input id="inputHeight" placeholder="Input Height">
-    <button onclick="getInputHeight()">Submit</button>
+
 
 <input id="inputWeight" placeholder="Input Weight">
-    <button onclick="getInputWeight()">Submit</button>
+
 
 <button onclick="addPeople()">Submit New Person</button>
 
