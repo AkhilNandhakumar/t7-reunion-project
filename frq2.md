@@ -1,6 +1,3 @@
-## FRQ 1
-
-***
 
 ## FRQ 2
 
@@ -74,15 +71,6 @@
 </script>
 
 <button onclick="getPeople()">Click To Update People Table</button>
-
-***
-
-
-## FRQ 3
-
-***
-
-## FRQ 4
 
 
 
