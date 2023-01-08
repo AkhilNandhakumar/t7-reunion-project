@@ -72,61 +72,59 @@ function getInputId(){
     return input;
 }
 
-// function getInputEmail(){
-//     let input = document.getElementById("inputEmail").value;
-//     return input;
-// }
+function getInputEmail(){
+    let input = document.getElementById("inputEmail").value;
+    return input;
+}
 
-// function getInputPassword(){
-//     let input = document.getElementById("inputPassword").value;
-//     return input;
-// }
+function getInputPassword(){
+    let input = document.getElementById("inputPassword").value;
+    return input;
+}
 
-// function getInputName(){
-//     let input = document.getElementById("inputName").value;
-//     return input;
-// }
+function getInputName(){
+    let input = document.getElementById("inputName").value;
+    return input;
+}
 
-// function getInputDob(){
-//     let input = document.getElementById("inputDob").value;
-//     return input;
-// }
+function getInputDob(){
+    let input = document.getElementById("inputDob").value;
+    return input;
+}
 
-// function getInputHeight(){
-//     let input = document.getElementById("inputHeight").value;
-//     return input;
-// }
+function getInputHeight(){
+    let input = document.getElementById("inputHeight").value;
+    return input;
+}
 
-// function getInputWeight(){
-//     let input = document.getElementById("inputWeight").value;
-//     return input;
-// }
+function getInputWeight(){
+    let input = document.getElementById("inputWeight").value;
+    return input;
+}
 
 
-// function addPeople(){
+function addPeople(){
     
 
-//     const params = {
-//         email: getInputEmail(),
-//         password: getInputPassword(), 
-//         name: getInputName(),
-//         dob: getInputDob(),
-//         height: getInputHeight(),
-//         weight: getInputWeight(),
-//     };
+    const params = {
+        email: getInputEmail(),
+        password: getInputPassword(), 
+        name: getInputName(),
+        dob: getInputDob(),
+        height: getInputHeight(),
+        weight: getInputWeight(),
+    };
 
-//     const options = {
-//         method: 'POST',
-//         body: JSON.stringify( params )  
-//     };
+    const options = {
+        method: 'POST',
+        body: JSON.stringify( params )  
+    };
 
-//     fetch( 'https://akhilcodingsociety.tk/api/person/post', options )
-//         .then(response => response.json())
-//         .then(data => {
-//             console.log(data);
-//         });
+    fetch( 'https://akhilcodingsociety.tk/api/person/post', options )
+        .then(response => response.json())
+        .then(data => {console.log(data);});
 
-//     }
+    }
 
 function getId(id) {
     idResult = document.getElementById("idResult");
