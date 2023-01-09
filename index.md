@@ -1,17 +1,11 @@
-## Project Outline
-> CanCode Project Description
+---
+layout: default
+---
 
-- Helps students learn to code in an interactive manner.
-- Simple easy to learn design.
-- Like Kahoot, and Leet Code.
+<div id="video_wrapper">
+  <video autoplay loop>
+    <source src="https://drive.google.com/uc?export=view&id=1uKD7HASOzB3GObjVv7jTi5NZcF9WbgiF" type="video/mp4">
+  </video>
+</div>
 
-## Contributors
-
-| Name | Github Profile | Role |
-| --- | --- | --- |
-| Tristan Copley | **[Link](https://github.com/TristanCopley)** | Scrum Master |
-| Akhil Nandhakumar | **[Link](https://github.com/AkhilNandhakumar)** | Temp |
-| Armaan Shamsaasef | **[Link](https://github.com/xXAASXx)** | Temp |
-| Braeden Copley | **[Link](https://github.com/boply)** | Temp |
-| Tianbin Liu | **[Link](https://github.com/TianbinLiu)** | Temp |
-| Tigran Arkelov | **[Link](https://github.com/Tigran7)** | Temp |
+{% include_relative README.md %}

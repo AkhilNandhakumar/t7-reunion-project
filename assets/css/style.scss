@@ -1,16 +1,34 @@
----
----
+$light: #f7f7f7;
+$dark: #222121;
+$lime: #00cc66;
+$orangeRed: #fb4b4e;
+$blue: #2541b2;
+$high-emph: rgba(white, 0.87);
+$med-emph: rgba(white, 0.69); //Noicee
+$low-emph: rgba(white, 0.38);
+$dark-grey : #121212; 
+// $dark-grey : #1F1B24;
+$overlay: mix($dark-grey, white, 95%);
+$overlay-light: mix($dark-grey, white, 86%);
 
 @import "{{ site.theme }}";
 
-/* "row style" is flexible size and aligns pictures in center */
-.row {
-    align-items: center;
-    display: flex;
-  }
-  
-  /* "column style" is one-third of the width with padding */
-  .column {
-    flex: 33.33%;
-    padding: 5px;
-  }
+a {
+    color: rgb(75, 186, 255) !important;
+}
+
+a:hover {
+    color:$high-emph !important;
+}
+
+table th{
+    background-color: $dark-grey;
+    border-color: $overlay-light;
+    color: $high-emph;
+}
+
+table td{
+    background-color: $dark-grey;
+    border-color: $overlay-light;
+    color: $med-emph;
+}
