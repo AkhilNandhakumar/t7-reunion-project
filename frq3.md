@@ -2,7 +2,7 @@
 
 <script> 
 function getInput(){
-let inputbox = document.getElementByID("inputext").value
+let inputbox = document.getElementById("inputext").value
 return inputbox
 
 }
