@@ -9,7 +9,9 @@ $high-emph: rgba(white, 0.87);
 $med-emph: rgba(white, 0.69); //Noicee
 $low-emph: rgba(white, 0.38);
 $dark-grey : #121212; 
-$dark-trans:rgba(0,0,0, 0.85); 
+$low-dark-trans:rgba(0,0,0,0.4);
+$mid-dark-trans:rgba(0,0,0, 0.65); 
+$high-dark-trans:rgba(0,0,0, 0.85); 
 // $dark-grey : #1F1B24;
 $overlay: mix($dark-grey, white, 95%);
 $overlay-light: mix($dark-grey, white, 86%);
@@ -25,13 +27,18 @@ a:hover {
 }
 
 table th{
-    background-color: $dark-trans;
+    background-color: $high-dark-trans;
     border-color: $overlay-light;
     color: $high-emph;
 }
 
 table td{
-    background-color: $dark-trans;
+    background-color: $high-dark-trans;
     border-color: $overlay-light;
     color: $med-emph;
+}
+
+h2 { 
+    background: $high-dark-trans; 
+    color: $high-emph;
 }
