@@ -1,33 +1,26 @@
 ## FRQ 3
 
-<script> 
-function getInput(){
-let inputbox = document.getElementById("inputext").value
-return inputbox
+<input id="input" placeholder="Input equation">
+    <button onclick="calculate(getInput())">Calculate</button>
 
+<h2 id="result"></h2>
+
+<script>
+
+function getInput(){
+    let equation = document.getElementById("input").value;
+    console.log(equation);
+    return equation;
 }
 
-function calculate(ex) {
-    
-    result = document.getElementById("resultbox");
-
-    // Fetch data from API
-    fetch('https://akhilcodingsociety.tk/api/calendar/api/calculator/' + ex)
+function calculate(phrase) {
+    result = document.getElementById("result");
+    fetch('https://akhilcodingsociety.tk/api/calculator/' + phrase)
     .then(response => response.json())
     .then(data => {
-
         console.log(data);
-
-        result.innerHTML = data.Result;
-
+        result.innerHTML = phrase + " = " + data.Result;
     })
 }
+
 </script>
-
-<p id="resultbox">
-
-</p>
-
-<input id="inputext" placeholder="Input Equation">
-
-<button onclick="calculate(getInput())">Submit</button> 
