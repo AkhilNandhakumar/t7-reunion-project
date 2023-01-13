@@ -12,6 +12,7 @@
         <th>Red</th>
         <th>Green</th>
         <th>Blue</th>
+        <th>Effect</th>
       </tr>
     </thead>
     <tbody id="lightboard">
@@ -34,13 +35,13 @@ function lightboard(row, col) {
                 var temp = "";
                 data.forEach((itemData) => {
                     temp += "<tr>";
-                    temp += "<td>" + itemData.row + "</td>";
-                    temp += "<td>" + itemData.column + "</td>";
-                    temp += "<td>" + itemData.On + "</td>";
-                    temp += "<td>" + itemData.Light.red + "</td>";
-                    temp += "<td>" + itemData.Light.green + "</td>";
-                    temp += "<td>" + itemData.Light.blue + "</td>";
-                    temp += "<td>" + itemData.Light.effect + "</td></tr>";
+                    temp += "<td>" + itemData["row"] + "</td>";
+                    temp += "<td>" + itemData["column"] + "</td>";
+                    temp += "<td>" + itemData["On"] + "</td>";
+                    temp += "<td>" + itemData["light"]["red"] + "</td>";
+                    temp += "<td>" + itemData["light"]["green"] + "</td>";
+                    temp += "<td>" + itemData["light"]["blue"] + "</td>";
+                    temp += "<td>" + itemData["light"]["effect"] + "</td></tr>";
                 });
                 document.getElementById('lightboard').innerHTML = temp;
                 }
